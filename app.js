@@ -1,4 +1,10 @@
 /* eslint-disable import/no-extraneous-dependencies */
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+import './src/database';
+
 import express from 'express';
 import homeRoutes from './src/routes/homeRoutes';
 
